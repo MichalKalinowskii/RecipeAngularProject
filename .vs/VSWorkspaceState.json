@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\header",
+    "\\src\\app\\recipes",
+    "\\src\\app\\recipes\\recipe-list",
+    "\\src\\app\\recipes\\recipe-list\\recipe-item",
+    "\\src\\app\\shared",
+    "\\src\\app\\shopping-list",
+    "\\src\\app\\shopping-list\\shopping-edit",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\recipes\\recipes.component.html",
+  "PreviewInSolutionExplorer": false
+}
