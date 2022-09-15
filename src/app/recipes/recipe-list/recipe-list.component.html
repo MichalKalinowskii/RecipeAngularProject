@@ -5,8 +5,8 @@
 </div>
 <hr />
 <div class="row">
-  <div class="col-xs-12">  
-    <app-recipe-item *ngFor="let item of recipes" [recipeItems]="item" (recipeToPass)="OnRecipeToPass(item)"></app-recipe-item>
+  <div class="col-xs-12" style="margin-bottom:10px">
+      <app-recipe-item *ngFor="let item of recipes" [recipeItems]="item"></app-recipe-item>
   </div>
 </div>
 
