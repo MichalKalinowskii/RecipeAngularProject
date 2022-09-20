@@ -1,12 +1,11 @@
-import { EventEmitter } from "@angular/core";
 import { Injectable } from "@angular/core";
 import { Ingredient } from "../shared/ingredient.model";
 import { Recipe } from "./recipe.model";
 
+
 @Injectable({ providedIn: 'root' })
 export class RecipesService {
 
-  recipeSelected = new EventEmitter<Recipe>();
 
   private recipes: Recipe[] = [
     new Recipe('Spaghetti', 'Italian dish', 'https://static.fajnegotowanie.pl/media/uploads/media_image/auto/recipe-content/7788/desktop/spaghetti-napolitana.jpg.webp',
