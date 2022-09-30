@@ -8,22 +8,23 @@ import { Recipe } from "./recipe.model";
 export class RecipesService {
   recipesChanges = new Subject<Recipe[]>();
 
-  private recipes: Recipe[] = [
-    new Recipe('Spaghetti', 'Italian dish', 'https://static.fajnegotowanie.pl/media/uploads/media_image/auto/recipe-content/7788/desktop/spaghetti-napolitana.jpg.webp',
-      [
-        new Ingredient('Pasta', 1),
-        new Ingredient('Tomatoes', 3),
-        new Ingredient('Cheese', 1)
-      ]
-    ),
-    new Recipe('Kotlet Schabowy', 'Polish dish', 'https://bi.im-g.pl/im/19/12/1b/z28385561IH,kotlet-schabowy.jpg',
-      [
-        new Ingredient('Meat', 1),
-        new Ingredient('Potatoes', 5),
-        new Ingredient('Salad', 1)
-      ]
-    )
-  ];
+  //private recipes: Recipe[] = [
+  //  new Recipe('Spaghetti', 'Italian dish', 'https://static.fajnegotowanie.pl/media/uploads/media_image/auto/recipe-content/7788/desktop/spaghetti-napolitana.jpg.webp',
+  //    [
+  //      new Ingredient('Pasta', 1),
+  //      new Ingredient('Tomatoes', 3),
+  //      new Ingredient('Cheese', 1)
+  //    ]
+  //  ),
+  //  new Recipe('Kotlet Schabowy', 'Polish dish', 'https://bi.im-g.pl/im/19/12/1b/z28385561IH,kotlet-schabowy.jpg',
+  //    [
+  //      new Ingredient('Meat', 1),
+  //      new Ingredient('Potatoes', 5),
+  //      new Ingredient('Salad', 1)
+  //    ]
+  //  )
+  //];
+  private recipes: Recipe[] = [];
 
   getRecipes() {
     return this.recipes.slice();
@@ -31,6 +32,11 @@ export class RecipesService {
 
   getRecipe(index: number) {
     return this.recipes[index];
+  }
+
+  setRecipes(recipes: Recipe[]) {
+    this.recipes = recipes;
+    this.recipesChanges.next(this.recipes.slice());
   }
 
   addRecipe(recipe: Recipe) {
