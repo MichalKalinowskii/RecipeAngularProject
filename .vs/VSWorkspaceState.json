@@ -5,9 +5,9 @@
     "\\src\\app",
     "\\src\\app\\auth",
     "\\src\\app\\header",
-    "\\src\\app\\shared",
-    "\\src\\app\\shared\\loading-spinner"
+    "\\src\\app\\recipes",
+    "\\src\\app\\shared"
   ],
-  "SelectedNode": "\\src\\app\\auth\\auth.service.ts",
+  "SelectedNode": "\\src\\app\\auth\\auth.guard.ts",
   "PreviewInSolutionExplorer": false
 }
