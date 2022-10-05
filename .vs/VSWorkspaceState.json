@@ -6,8 +6,10 @@
     "\\src\\app\\auth",
     "\\src\\app\\header",
     "\\src\\app\\recipes",
-    "\\src\\app\\shared"
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\alert",
+    "\\src\\app\\shared\\placeholder"
   ],
-  "SelectedNode": "\\src\\app\\auth\\auth.guard.ts",
+  "SelectedNode": "\\src\\app\\auth\\auth.component.ts",
   "PreviewInSolutionExplorer": false
 }
