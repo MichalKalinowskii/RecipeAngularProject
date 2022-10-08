@@ -4,12 +4,8 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\auth",
-    "\\src\\app\\header",
-    "\\src\\app\\recipes",
-    "\\src\\app\\shared",
-    "\\src\\app\\shared\\alert",
-    "\\src\\app\\shared\\placeholder"
+    "\\src\\app\\recipes\\recipe-list\\recipe-item"
   ],
-  "SelectedNode": "\\src\\app\\auth\\auth.component.ts",
+  "SelectedNode": "\\src\\app\\app-routing.module.ts",
   "PreviewInSolutionExplorer": false
 }
