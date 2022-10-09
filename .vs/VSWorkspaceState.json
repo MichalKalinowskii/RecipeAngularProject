@@ -4,8 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\auth",
-    "\\src\\app\\recipes\\recipe-list\\recipe-item"
+    "\\src\\app\\auth\\store",
+    "\\src\\app\\header",
+    "\\src\\app\\recipes",
+    "\\src\\app\\shopping-list",
+    "\\src\\app\\shopping-list\\store",
+    "\\src\\app\\store"
   ],
-  "SelectedNode": "\\src\\app\\app-routing.module.ts",
+  "SelectedNode": "\\src\\app\\auth\\auth.component.ts",
   "PreviewInSolutionExplorer": false
 }
